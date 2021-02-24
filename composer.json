@@ -1,5 +1,5 @@
 {
-    "name": "solar05/elastica-bundle-fork",
+    "name": "solar05/elastica-bundle",
     "type": "symfony-bundle",
     "description": "Fork from friendsofsymfony/elastica-bundle, Elasticsearch PHP integration for your Symfony project using Elastica",
     "keywords": [
