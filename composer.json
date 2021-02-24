@@ -1,7 +1,7 @@
 {
-    "name": "friendsofsymfony/elastica-bundle",
+    "name": "solar05/elastica-bundle",
     "type": "symfony-bundle",
-    "description": "Elasticsearch PHP integration for your Symfony project using Elastica",
+    "description": "Fork from friendsofsymfony/elastica-bundle, Elasticsearch PHP integration for your Symfony project using Elastica",
     "keywords": [
         "doctrine2",
         "elastica",
@@ -27,13 +27,17 @@
         {
             "name": "Jeremy Mikola",
             "email": "jmikola@gmail.com"
+        },
+        {
+            "name": "Artem Solomatin",
+            "homepage": "https://github.com/solar05"
         }
     ],
     "require": {
         "php": "^7.2",
         "pagerfanta/pagerfanta": "^2.0",
         "psr/log": "^1.0",
-        "ruflin/elastica": "^7.0",
+        "solar05/elastica": "^6.2",
         "symfony/console": "^4.4 || ^5.1",
         "symfony/dependency-injection": "^4.4 || ^5.1",
         "symfony/framework-bundle": "^4.4 || ^5.1",
