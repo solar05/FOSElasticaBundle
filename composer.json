@@ -1,15 +1,37 @@
 {
-    "name": "friendsofsymfony/elastica-bundle",
+    "name": "solar05/elastica-bundle",
     "type": "symfony-bundle",
-    "description": "Elasticsearch PHP integration for your Symfony project using Elastica",
-    "keywords": ["doctrine2", "elastica", "elasticsearch", "mongodb", "search"],
+    "description": "Fork from friendsofsymfony/elastica-bundle, Elasticsearch PHP integration for your Symfony project using Elastica",
+    "keywords": [
+        "doctrine2",
+        "elastica",
+        "elasticsearch",
+        "mongodb",
+        "search"
+    ],
     "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle",
     "license": "MIT",
     "authors": [
-        { "name": "FriendsOfSymfony Community", "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle/contributors" },
-        { "name": "Tim Nagel", "email": "tim@nagel.com.au" },
-        { "name": "Richard Miller", "email": "richard.miller@limethinking.co.uk" },
-        { "name": "Jeremy Mikola", "email": "jmikola@gmail.com" }
+        {
+            "name": "FriendsOfSymfony Community",
+            "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle/contributors"
+        },
+        {
+            "name": "Tim Nagel",
+            "email": "tim@nagel.com.au"
+        },
+        {
+            "name": "Richard Miller",
+            "email": "richard.miller@limethinking.co.uk"
+        },
+        {
+            "name": "Jeremy Mikola",
+            "email": "jmikola@gmail.com"
+        },
+        {
+            "name": "Artem Solomatin",
+            "homepage": "https://github.com/solar05"
+        }
     ],
     "require": {
         "php": "^7.1",
@@ -19,7 +41,7 @@
         "symfony/property-access": "^3.4|^4",
         "pagerfanta/pagerfanta": "^1.0.5|^2.0",
         "psr/log": "^1.0",
-        "ruflin/elastica": "^5.3.5|^6.1.1"
+        "ruflin/elastica": "^6.2"
     },
     "require-dev": {
         "doctrine/orm": "^2.5",
